@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Robot Base Control </title>
+        <link rel="stylesheet" href="RobotBase.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <h1> Robot Base Control </h1>
+        <br>
+    </head>
+    
+    <body>
+
+     <form action="mydb2.php" method="POST">
+<br>
+<br>
+        <button class="button" name="Left" type="button1" value="Left" >Left </button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="button" name="Stop" type="button2" value="Stop" >Stop</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="button" name="Right" type="button3" value="Right"> Right </button>
+    <br>
+    <br>
+    <br>
+    <br>
+        <button class="button" name="Forward" type="button4" value="Forward"> Forward </button>
+    <br>
+    <br>
+    <br>
+    <br>
+        <button class="button" name="Backward" type="button5" value="Backward" 
+        >Backward</button>
+   <br>
+
+  
+    <ul><br>
+    <a class="button" name="butt" href="RobotControlPanel.html" style="right:44px; background-color:white; font-size:0.5cm; inline-size:188px; "
+    >Robot Control Panel</a>
+    <br>
+</ul> 
+ 
+<ul>
+    <a class="button" name="butt" href="RobotBase.html" style="right:44px; background-color:white; font-size:0.5cm; inline-size:188px;" > Robot Base Control</a> 
+ </ul>
+
+    </form>
+    </div>
+    </body>
+
+
+<script src="RobotBase.js"> </script> 
+</script>
+
+
+
+   
+</html>
